@@ -15,7 +15,7 @@ if [ -d $end_dir ]; then
     # cleanup
     remove_port $(cat "$end_dir/.port")
 
-    # set new port
+    # set the new port
     echo $new_port > "$end_dir/.port"
     add_port $new_port $new_name
 
@@ -23,7 +23,7 @@ if [ -d $end_dir ]; then
     exit 0
 fi
 
-#input
+# input
 port=$(get_port)
 name=$(get_name)
 

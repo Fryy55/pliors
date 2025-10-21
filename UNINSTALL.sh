@@ -18,7 +18,6 @@ if [ -d $end_dir ]; then
     remove_port $port
 
     echo 'Done.'
-    exit 0
 else
     echo "PLIoRS isn't installed."
 fi
